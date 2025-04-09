@@ -1,3 +1,4 @@
+import AWS from "aws-sdk";
 import { s3, S3_BUCKET } from "../config/aws";
 
 /**

@@ -1,7 +1,7 @@
 import AWS from "aws-sdk";
 import { Task } from "../models/Task";
 import { User } from "../models/User";
-import { formatDate } from "src/utils/awsUtils";
+import { formatDate } from "../utils/awsUtils";
 
 // AWS SES configuration is imported from AWS SDK config
 const ses = new AWS.SES({ apiVersion: "2010-12-01" });
